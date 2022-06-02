@@ -59,7 +59,7 @@ class todoPage extends Component {
               <TodoItem
                 key={eachTodo.id}
                 todoDetails={eachTodo}
-                deleteTodo={this.onDelete}
+                onDelete={this.onDelete}
               />
             ))}
           </ul>
